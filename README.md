@@ -41,3 +41,7 @@ Docker configuration is untested. It was developed to solve performance issues t
 #### Multicore / Multiprocessing
 
 The multi-thread processing caused issues during development with minimal speed-up. It was developed to solve performance issues that were resolved through the caching of match data (via `pickle`).
+
+## sync_playlists_to_users
+
+Clones one or more playlists from a source user to one or more target user(s). Originally authored by [u/SwiftPanda16](https://www.reddit.com/user/SwiftPanda16); modified by [u/JonBackhaus](https://www.reddit.com/user/JonBackhaus).
