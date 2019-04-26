@@ -1,0 +1,10 @@
+version: '3'
+services:
+  import-itunes-playlists:
+    build: Dockerfile
+      context: ./import-itunes-playlists
+      dockerfile: Dockerfile
+    image: plex-scripts/import-itunes-playlists
+    container_name: import-itunes-playlists
+    ports:
+        - "32400:32400"
