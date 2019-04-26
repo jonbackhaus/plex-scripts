@@ -1,0 +1,5 @@
+joblib==0.13.0
+PlexAPI==3.1.0
+requests==2.20.1
+libpytunes==1.5.2
+xmltodict==0.11.0
