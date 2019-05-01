@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+joblib = "==0.13.0"
+requests = "==2.20.1"
+libpytunes = "==1.5.2"
+xmltodict = "==0.11.0"
+PlexAPI = "==3.1.0"
+
+[requires]
+python_version = "3.7"
